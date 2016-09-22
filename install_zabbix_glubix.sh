@@ -5,3 +5,6 @@ do
    #wget https://github.com/htaira/glubix/blob/master/userparams/${file} -O /usr/libexec/${file}
    chmod +x /usr/libexec/${file}
 done
+service zabbix-agent restart
+echo 'Adicionar os Templates do link abaixo no zabbix'
+echo 'https://github.com/htaira/glubix/tree/master/templates'
