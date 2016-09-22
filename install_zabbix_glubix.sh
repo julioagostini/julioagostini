@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Instalar os 3 comandos abaixo para instalar o zabbix_glubix para monitorar o glusterfs
-#wget https://github.com/julioagostini/julioagostini/blob/master/install_zabbix_glubix.sh
+#wget https://raw.githubusercontent.com/julioagostini/julioagostini/master/install_zabbix_glubix.sh
 #chmod +x install_zabbix_glubix.sh
 #./install_zabbix_glubix.sh
 
