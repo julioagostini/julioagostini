@@ -5,8 +5,8 @@ echo Use ./install_pg_monz.sh 'y' '/var/lib/pgsql/9.3/data/pg_log'
    echo "Antes de executar este script deve executar as tarefas abaixo:"
    echo "Mudar o parametro log_file_mode = 0640 no arquivo de conf /var/lib/pgsql/9.3/data/postgresql.conf"
    echo "Adicionar o zabbix ao grupo do postgres no arquivo /etc/group"
-   echo "Adicionar o template Template App PostgreSQL ao zabbix"
-
+   echo "Adicionar o template Template App PostgreSQL via interface web do zabbix"
+ 
 
 PGLOG="$2"
 if [ "$PGLOG" == "" ]
