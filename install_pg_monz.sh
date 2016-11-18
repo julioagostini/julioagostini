@@ -1,4 +1,7 @@
 #!/bin/bash
+# wget https://raw.githubusercontent.com/julioagostini/julioagostini/master/install_pg_monz.sh
+# chmod +x install_pg_monz.sh
+
 echo Use ./install_pg_monz.sh 'y' '/var/lib/pgsql/9.3/data/pg_log'
 
 
