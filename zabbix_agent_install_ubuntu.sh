@@ -14,3 +14,8 @@ ServerActive=172.31.3.144
 Hostname=$HOSTNAME
 Include=/etc/zabbix/zabbix_agentd.d/*.conf" > /etc/zabbix/zabbix_agentd.conf
 
+systemctl start zabbix-agent.service 
+systemctl enable zabbix-agent.service 
+
+
+
