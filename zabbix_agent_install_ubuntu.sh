@@ -6,7 +6,7 @@ dpkg -i zabbix-release_5.0-1+${OSVERSION}_all.deb
 apt update
 apt install zabbix-agent
 
-echo"PidFile=/var/run/zabbix/zabbix_agentd.pid
+echo "PidFile=/var/run/zabbix/zabbix_agentd.pid
 LogFile=/var/log/zabbix/zabbix_agentd.log
 LogFileSize=0
 Server=172.31.3.144
